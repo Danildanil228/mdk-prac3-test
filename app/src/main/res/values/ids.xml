@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="canvasView" type="id" />
+    <item name="btnInput" type="id" />
+    <item name="btnDraw" type="id" />
+    <item name="btnClear" type="id" />
+    <item name="tvCoordinates" type="id" />
+    <item name="colorPicker" type="id" />
+    <item name="x1Input" type="id" />
+    <item name="y1Input" type="id" />
+    <item name="x2Input" type="id" />
+    <item name="y2Input" type="id" />
+</resources>

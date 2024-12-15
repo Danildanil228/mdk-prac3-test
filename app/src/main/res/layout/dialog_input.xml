@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etX1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="X1" />
+
+    <EditText
+        android:id="@+id/etY1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Y1" />
+
+    <EditText
+        android:id="@+id/etX2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="X2" />
+
+    <EditText
+        android:id="@+id/etY2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Y2" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbGreen"
+            android:text="Green"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/rbRed"
+            android:text="Red"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/rbBlue"
+            android:text="Blue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+
+</LinearLayout>
